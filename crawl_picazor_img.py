@@ -19,7 +19,7 @@ END_PAGE = int(os.getenv("END_PAGE", "568"))  # Ensure conversion to int
 DOWNLOAD_DIR = os.getenv("DOWNLOAD_DIR", "picazor_thanh_nhen_images_only_default")  # Directory for images
 
 # Concurrency Settings (can also be moved to .env if desired)
-MAX_CONCURRENT_SCRAPERS = int(os.getenv("MAX_CONCURRENT_SCRAPERS", "5"))
+MAX_CONCURRENT_SCRAPERS = int(os.getenv("MAX_CONCURRENT_SCRAPERS", "10"))
 MAX_CONCURRENT_DOWNLOADERS = int(os.getenv("MAX_CONCURRENT_DOWNLOADERS", "5"))
 DOWNLOAD_BATCH_SIZE = int(os.getenv("DOWNLOAD_BATCH_SIZE", "100"))
 
